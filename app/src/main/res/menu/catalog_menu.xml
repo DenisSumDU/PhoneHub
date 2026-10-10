@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_favorites"
+        android:icon="@android:drawable/btn_star_big_on"
+        android:title="@string/favorites"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/action_compare"
+        android:title="@string/compare"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_sort"
+        android:title="@string/sort_menu"
+        app:showAsAction="never">
+        <menu>
+            <item
+                android:id="@+id/sort_price_asc"
+                android:title="@string/sort_price_asc" />
+            <item
+                android:id="@+id/sort_price_desc"
+                android:title="@string/sort_price_desc" />
+            <item
+                android:id="@+id/sort_default"
+                android:title="@string/sort_default" />
+        </menu>
+    </item>
+</menu>

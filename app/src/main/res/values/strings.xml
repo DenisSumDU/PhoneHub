@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">phonehub</string>
+    <string name="price_format">%1$d грн</string>
+    <string name="cd_phone_image">Зображення пристрою</string>
+    <string name="title_technical_specs">Технічні характеристики</string>
+    <string name="btn_details">Детальніше</string>
+    <string name="btn_favorite_add">Додати в обране</string>
+    <string name="btn_favorite_remove">Видалити з обраного</string>
+    <string name="favorites">Обране</string>
+    <string name="sort_menu">Сортування</string>
+    <string name="sort_price_asc">Від дешевих до дорогих</string>
+    <string name="sort_price_desc">Від дорогих до дешевих</string>
+    <string name="sort_default">За замовчуванням</string>
+    <string name="compare">Порівняти</string>
+    <string name="phone_1_not_selected">Телефон 1 не вибрано</string>
+    <string name="phone_2_not_selected">Телефон 2 не вибрано</string>
+    <string name="compare_button_text">Порівняти</string>
+    <string name="phone_image_desc">Зображення телефона</string>
+    <string name="add_to_favorites_desc">Додати в обране</string>
+</resources>

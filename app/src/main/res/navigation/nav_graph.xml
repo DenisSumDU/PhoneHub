@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/catalogFragment">
+
+    <fragment
+        android:id="@+id/catalogFragment"
+        android:name="com.example.phonehub.CatalogFragment"
+        android:label="PhoneHub Catalog"
+        tools:layout="@layout/fragment_catalog">
+        <action
+            android:id="@+id/action_catalogFragment_to_detailFragment"
+            app:destination="@id/detailFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/detailFragment"
+        android:name="com.example.phonehub.DetailFragment"
+        android:label="Phone Details"
+        tools:layout="@layout/fragment_phone_detail" />
+    <fragment
+        android:id="@+id/favoriteFragment"
+        android:name="com.example.phonehub.FavoriteFragment"
+        android:label="Обрані телефони"
+        tools:layout="@layout/fragment_catalog" />
+    <fragment
+        android:id="@+id/compareFragment"
+        android:name="com.example.phonehub.CompareFragment"
+        android:label="Порівняння"
+        tools:layout="@layout/fragment_compare" />
+
+</navigation>
